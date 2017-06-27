@@ -35,8 +35,8 @@ npm run build && npm start
 cd ./server/public/static/status
 rm -f ./*.png
 ln -s /var/www/html/munin/youdominpath/cpu-day.png cpu-day.png
-ln -s /var/www/html/munin/www/youdominpath/netstat-day.png netstat-day.png
-ln -s /var/www/html/munin/www/youdominpath/if_eth0-day.png if_eth0-day.png
+ln -s /var/www/html/munin/youdominpath/netstat-day.png netstat-day.png
+ln -s /var/www/html/munin/youdominpath/if_eth0-day.png if_eth0-day.png
 ln -s /var/www/html/munin/youdominpath/memory-day.png memory-day.png
 cd ../../../../
 npm run build && npm start
