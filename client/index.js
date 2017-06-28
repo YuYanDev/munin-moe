@@ -24,45 +24,41 @@ const App = {
 
 const Home = { 
     template: `<div>
-               <br/>
-               <hr/>
-               <br/>
-               <br/>
-               <center>
-                <div id="running" class="good">
-                    All systems operational
-                </div>
-               </center>
-               <br/>
-               <br/>
-               <h2>About Server</h2>
-               <p>It is just a Raspberry Pi _(:3」∠)_</p>
+                <br/>
+                <hr/>
+                <br/>
+                <br/>
+                <center>
+                  <div id="running" class="good">
+                      All systems operational
+                  </div>
+                </center>
                </div>`
 }
 const Traffic = { 
     template: `<div>
-               <br/>
-               <hr/>
-               <br/>
-               <h3>Network Traffic</h3>
-               <img src="/static/status/if_eth0-day.png"/>
-               <br/>
-               <br/>
-               <h3>Netstat</h3>
-               <img src="/static/status/netstat-day.png"/>
+                <br/>
+                <hr/>
+                <br/>
+                <h3>Network Traffic</h3>
+                <img src="/static/status/if_eth0-day.png"/>
+                <br/>
+                <br/>
+                <h3>Netstat</h3>
+                <img src="/static/status/netstat-day.png"/>
                </div>` 
 }
 const CPUMemory = { 
     template: `<div>
-               <br/>
-               <hr/>
-               <br/>
-               <h3>Memory Status</h3>
-               <img src="/static/status/memory-day.png"/>
-               <br/>
-               <br/>
-               <h3>CPU Status</h3>
-               <img src="/static/status/cpu-day.png"/>
+                <br/>
+                <hr/>
+                <br/>
+                <h3>Memory Status</h3>
+                <img src="/static/status/memory-day.png"/>
+                <br/>
+                <br/>
+                <h3>CPU Status</h3>
+                <img src="/static/status/cpu-day.png"/>
                </div>` 
 }
 
